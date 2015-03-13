@@ -1,16 +1,16 @@
 # Contributing
 
-By no means does contributing to OpenFarm imply contributing in a programmer capacity. We love talking to farmers, user experience designers, community organizers, graphic designers, content writers, everyone! Send Rory an e-mail at [rory@openfarm.cc](mailto:rory@openfarm.cc).
+You can contribute to OpenFarm in many ways, not just as a programmer. We love talking to farmers, user experience designers, community organizers, graphic designers, content writers, everyone! Send Rory an e-mail at [rory@openfarm.cc](mailto:rory@openfarm.cc).
 
 If you're keen on contributing code, sign our [Contributor License Agreement](https://www.clahub.com/agreements/openfarmcc/OpenFarm).
 
 ## Then!
 
- 1. Fork this repo (see Running Locally for more details).
+ 1. Fork this repo (see &ldquo;Running Locally&rdquo; below for more details).
  2. Fix stuff, write features, unit tests(!).
- 3. Send pull request to master.
+ 3. Send pull requests to `master`.
 
-Not sure where to help? Take a look at the [Issue Tracker](https://github.com/openfarmcc/OpenFarm/issues). It is advisable to let others know your intent to implement a feautre before starting, as it lets other contributors focus their efforts elsewhere.
+Are you not sure where to help? Take a look at the [Issue Tracker](https://github.com/openfarmcc/OpenFarm/issues). It is advisable for you to let others know your intent to implement a feature before you start, as this lets other contributors focus their efforts elsewhere.
 
 Want to see the big picture? We have a [project roadmap](https://docs.google.com/spreadsheets/d/13_VQDOm8HpM49Ql3HyNfL9ut5JlqbLEDA9yEk5OqgqU/edit?usp=sharing) for that!
 
@@ -27,17 +27,19 @@ $ echo "ENV['SECRET_KEY_BASE'] = '$(rake secret)'" >> config/app_environment_var
 $ rails s
 ```
 
+[This page](https://github.com/openfarmcc/OpenFarm/wiki/How-to-Install-&-Run-OpenFarm-on-an-Ubuntu-System) shows in detail how to install the prerequisites and get OpenFarm up and running in an Ubuntu Linux system, for example.
+
 If all went well, you will have a seeded database and can use the account `admin@admin.com` with password `admin123`.
 
-**If you had any problems** installing bundles getting up and running etc see the [Common Issues Page](https://github.com/openfarmcc/OpenFarm/wiki/Common-Issues).
+**If you had any problems** installing bundles, getting up and running, etc., see the [Common Issues Page](https://github.com/openfarmcc/OpenFarm/wiki/Common-Issues).
 
 #### Sensitive Information
 
-All secrets (such as S3 credentials) are stored in ENV variables. You will need to set `config/app_environment_variables.rb` accordingly. See `config/app_environment_variables.rb.example` for an example.
+All secrets (such as S3 credentials) are stored in `ENV` variables. You will need to set these in the  `config/app_environment_variables.rb` file accordingly. See `config/app_environment_variables.rb.example` for an example of what to put in this file.
 
 ## When Ready to Submit your Changes
 
-Make sure the tests pass:
+Make sure the tests pass by issuing this command:
 
     rspec
 
@@ -45,7 +47,7 @@ Push to your fork and [submit a pull request][pr].
 
 [pr]: https://github.com/openfarmcc/OpenFarm/compare/
 
-At this point you're waiting on us. We like to at least comment on pull requests
+At this point you\&#8217;re waiting on us. We like to at least comment on pull requests
 within three business days (and, typically, one business day). We may suggest
 some changes or improvements or alternatives.
 
