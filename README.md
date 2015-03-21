@@ -15,7 +15,7 @@ We use [Slack](https://openfarm.slack.com/) for real-time discussion and mockup 
 
 ### Community Discussion Group
 
-To discuss features, feature requests, and ideas, and to interface with our users at large (and contributors not on GitHub), please check out our public [discussion forum](https://www.loomio.org/g/yWm14fG6/openfarm-community-development-group).
+To discuss features, feature requests, and ideas, and to interface with our members at large (and contributors not on GitHub), please check out our public [discussion forum](https://www.loomio.org/g/yWm14fG6/openfarm-community-development-group).
 
 ### Getting Started (Setup)
 
@@ -46,7 +46,7 @@ Want to see the big picture? We have a [project roadmap](https://docs.google.com
 
 Have a look at the [FAQ](http://openfarm.cc/pages/faq) for some frequently asked questions about contributing (Angular, Issue Trackers, IRC Channels).
 
-### User Flow
+### Member Flow
 
 ![User Flow Diagram] (http://i.imgur.com/YowIq1N.jpg)
 
